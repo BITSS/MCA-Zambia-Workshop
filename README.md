@@ -1,4 +1,4 @@
-# MCA Zambia Workshop, March 2016
+MCA Zambia Workshop, March 2016
 ======================
 by Garret Christensen, Berkeley Initiative for Transparency in the Social Sciences and Berkeley Institute for Data Science
 ----------------------
