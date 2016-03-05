@@ -148,7 +148,7 @@
 \item Transparency is part of being an ethical researcher. 
 
 \item Scientific values espoused by Robert Merton (Merton 1942):
-\begin{itemize}
+\begin{itemize}[<.->]
 \item Universalism: anyone can make a claim regardless of status.
 \item Communality: open sharing of knowledge.
 \item Disinterestedness: truth as motivation, not financial gains (COI).
@@ -289,7 +289,7 @@ Maximize power subject to budget constraint by adjusting expensive treatment arm
 %Go through the fields
 
 \begin{frame}{All Fields}
-\begin{itemize}
+\begin{itemize}[<.->]
 \item Medicine: (Turner et al. 2008)
 \item Social Sciences: (Franco, Malhotra, Simonovits 2014)
 \item Economics: (Brodeur et al. 2016)
@@ -417,7 +417,7 @@ AKA Registered Reports, moves peer review before data gathering, results, and an
 \end{frame}
 
 \begin{frame}{Meta-Analysis}
-\begin{itemize}
+\begin{itemize}[<.->]
 \item Synthesize results systematically
 \item Cochrance Collaboration (medicine), Campbell Collaboration (policy), What Works Clearinghouse
 \item Funnel plots (Card \& Krueger 1995)
@@ -572,10 +572,22 @@ Wide range of when exactly to write and how detailed to make the plan. At the ex
 \begin{frame}[<.->]{Project Protocol, Reporting Standards}
  Make sure you report everything another researcher would need to replicate your research.
  \begin{itemize}
- \item Find the appropriate reporting standard for your field and follow it: \url{http://www.equator-network.org/}
+ \item Find the appropriate reporting standard for your field and follow it: \url{http://www.equator-network.org}
 \item Report the nuts and bolts of the project implementation in a detailed protocol: \url{http://www.spirit-statement.org}
+\item Transparency and Openness Promotion (TOP) Guidelines: \url{http://cos.io/top}
 \end{itemize}
 \end{frame}
+
+ { % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}[plain, label=AEAreg]
+         \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+                \includegraphics[width=\paperwidth]{../Images/TOPGuidelines.PNG}
+            };
+        \end{tikzpicture}
+     \end{frame}
+}
 
  \subsection*{Workflow}
  \begin{frame}{Workflow}
@@ -599,7 +611,7 @@ including yourself next week''
 \end{itemize}
 \end{frame}
 
-\subsection{Version Control}
+\subsection*{Version Control}
 \begin{frame}{Version Control}
 \begin{itemize}[<.->]
 \item
@@ -661,13 +673,52 @@ OK, I'm convinced. How do I implement this in my own research?
 
 \begin{itemize}
 \item Read the manual I wrote.\href{https://github.com/garretchristensen/BestPracticesManual}{\beamergotobutton{Link}}
-\item Subscribe to the BITSS blog \& E-mail list
-\item Apply for our Summer Institute.
-\item Apply for our SSMART Grant (extra funding for developing country researchers).
+\item Subscribe to the BITSS blog \& E-mail list \href{https://bitss.org/blog}{\beamergotobutton{Link}}
+\item Apply for our Summer Institute. \href{http://www.bitss.org/events/summer-institute/}{\beamergotobutton{Link}}
+\item Apply for our SSMART Grants (extra funding for developing country researchers). \href{http://www.bitss.org/ssmart-grants/}{\beamergotobutton{Link}}
+
+\item Apply for our Leamer-Rosenthal Prizes. \href{http://www.bitss.org/lr-prizes/}{\beamergotobutton{Link}}
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Summer Institute}
+Three days of training in June at UC Berkeley, or two days of training in July at the University of Michigan.
+\includegraphics[width=4in]{../Images/bitss-2014-cohort2.jpg}
+\end{frame}
 
+\begin{frame}{SSMART Grant}
+Up to \$30,000 grant for a research project on:
+\begin{itemize}[<.->]
+\item Develop new methodology
+\item New tools and approaches for meta-analysis
+\item Research on researchers and adoption of new norms
+\end{itemize}
+Extra funding source for researchers from developing countries.
+
+\includegraphics[width=2.5in]{../Images/LRwinners.jpg}
+\end{frame}
+
+\begin{frame}{Leamer-Rosenthal Prizes}
+Up to \$10,000 prize for completed transparent research in the social sciences,
+especially:
+\begin{itemize}[<.->]
+\item Economics
+\item Poltical Science
+\item Psychology
+\end{itemize}
+\includegraphics[width=2.5in]{../Images/leamer1-zoomed33.jpg}
+\end{frame}
+
+
+\begin{frame}
+\begin{center}
+Questions?
+\vspace{1in}
+
+
+\Huge{Thank you!}
+\end{center}
+\end{frame}
 
 \end{document}
 
