@@ -167,11 +167,22 @@ If we only write up/publish significant results, and we have no record of all th
     \begin{frame}[plain, label=AEAreg]
          \begin{tikzpicture}[remember picture,overlay]
             \node[at=(current page.center)] {
-                \includegraphics[width=\paperwidth]{../Images/AEAreg.png}
+                \includegraphics[height=\paperheight]{../Images/AEARegistrations.PNG}
             };
         \end{tikzpicture}
      \end{frame}
 }
+ { % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}[plain, label=AEAreg]
+         \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+                \includegraphics[height=\paperheight]{../Images/AEANewRegistrations.PNG}
+            };
+        \end{tikzpicture}
+     \end{frame}
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
  \begin{frame}{Registrations-Social Sciences}
  \begin{itemize}
