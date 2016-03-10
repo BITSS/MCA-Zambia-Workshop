@@ -40,16 +40,16 @@
 \institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
 {
   \inst{1}%
+  UC Berkeley:\\
   Berkeley Initiative for Transparency in the Social Sciences\\
-  University of California Berkeley\\
-  and\\
-  Berkeley Institute for Data Science
-}
+  Berkeley Institute for Data Science\\
+  }
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
 
-\date % (optional, should be abbreviation of conference name)
-{MCA Zambia, March 2016}
+\date[BITSS2014] % (optional, should be abbreviation of conference name)
+{MCA Zambia, March 2016\\
+Slides available online at \url{https://osf.io/m8ey6/}}
 % - Either use conference name or its abbreviation.
 % - Not really informative to the audience, more for people (including
 %   yourself) who are reading the slides online
@@ -154,9 +154,27 @@ What should we include in our PAP, and where should we post it?
      \end{frame}
 }
 
-\begin {frame}{Publication Bias}
+\begin{frame}{Publication Bias}
 If we only write up/publish significant results, and we have no record of all the insignificant results, we have no way to tell if our `significant' results are real, or if they're the 5\% we should expect due to noise.
 \end{frame}
+
+\begin{frame}{Publication Bias--Statistical Correction}
+Under simple models of publication bias, you can restore the original type I error rate by adjusting the test statistic cutoff. About 30\% of published tests fall between the unadjusted cutoff (1.96) and the adjusted cutoff (3.02). 
+
+\vspace{0.25in}
+However, this method breaks down if it were to be widely applied. \href{http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149590}{(McCrary, Christensen, Fanelli 2016)}
+\end{frame}
+{ % all template changes are local to this group.
+    \setbeamertemplate{navigation symbols}{}
+    \begin{frame}[plain]
+        \begin{tikzpicture}[remember picture,overlay]
+            \node[at=(current page.center)] {
+                \includegraphics[width=\paperwidth]{../Images/McCrary.PNG}
+            };
+        \end{tikzpicture}
+     \end{frame}
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Registrations}
 \begin{frame}{Registrations-Medicine}
